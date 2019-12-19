@@ -21,11 +21,9 @@ public class DoctorDto {
 	
 	public DoctorDto() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	
-
-
 	public DoctorDto(int doctorId, String doctorName, int yearOfExperience, int salary, Set<PatientDto> patient) {
 		super();
 		this.doctorId = doctorId;

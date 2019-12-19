@@ -20,7 +20,7 @@ public class PatientDto {
 	
 	public PatientDto() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	public PatientDto(int patientId, String patientName, double patientBillAmount, Doctor doctor) {

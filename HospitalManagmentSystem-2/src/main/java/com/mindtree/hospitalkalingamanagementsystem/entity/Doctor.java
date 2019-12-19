@@ -43,7 +43,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 		
 		public Doctor() {
 			super();
-			// TODO Auto-generated constructor stub
+			
 		}
 		
 		public int getDoctorId() {
@@ -77,12 +77,9 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 					+ ", patient=" + patient + "]";
 		}
 
-
-		
-
 		@Override
 		public int compareTo(Doctor arg0) {
-			// TODO Auto-generated method stub
+			
 			return this.doctorName.compareTo(arg0.doctorName);
 		}
 		
